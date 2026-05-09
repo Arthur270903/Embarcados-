@@ -4,7 +4,7 @@
 
 #define LED_PORT       "GPIO_1" // Nome do controlador GPIO (label no .pio\build\frdm_kl25z\zephyr\zephyr.dts)
 #define LED_PIN        18       // Pino PTB18 onde está o LED vermelho
-#define SLEEP_TIME_MS  1000    // Intervalo de piscar (milissegundos)
+#define SLEEP_TIME_MS  100     // Intervalo de piscar (milissegundos)
 
 void main(void)
 {
