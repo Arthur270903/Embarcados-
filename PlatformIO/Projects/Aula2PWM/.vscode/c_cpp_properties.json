@@ -8,11 +8,12 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "/home/arthur/Documentos/embarcados/PlatformIO/Projects/260505-094115-zephyr-blink/include",
-                "/home/arthur/Documentos/embarcados/PlatformIO/Projects/260505-094115-zephyr-blink/src",
+                "/home/arthur/Documentos/embarcados/PlatformIO/Projects/Aula2monitorserial/include",
+                "/home/arthur/Documentos/embarcados/PlatformIO/Projects/Aula2monitorserial/src",
                 "/home/arthur/.platformio/packages/framework-zephyr/include",
-                "/home/arthur/Documentos/embarcados/PlatformIO/Projects/260505-094115-zephyr-blink/.pio/build/frdm_kl25z/zephyr/include/generated",
+                "/home/arthur/Documentos/embarcados/PlatformIO/Projects/Aula2monitorserial/.pio/build/frdm_kl25z/zephyr/include/generated",
                 "/home/arthur/.platformio/packages/framework-zephyr/soc/arm/nxp_kinetis/kl2x",
+                "/home/arthur/.platformio/packages/framework-zephyr/lib/libc/newlib/include",
                 "/home/arthur/.platformio/packages/framework-zephyr/_pio/modules/hal/cmsis/CMSIS/Core/Include",
                 "/home/arthur/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/devices/MKL25Z4",
                 "/home/arthur/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/drivers/kinetis",
@@ -21,11 +22,12 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "/home/arthur/Documentos/embarcados/PlatformIO/Projects/260505-094115-zephyr-blink/include",
-                    "/home/arthur/Documentos/embarcados/PlatformIO/Projects/260505-094115-zephyr-blink/src",
+                    "/home/arthur/Documentos/embarcados/PlatformIO/Projects/Aula2monitorserial/include",
+                    "/home/arthur/Documentos/embarcados/PlatformIO/Projects/Aula2monitorserial/src",
                     "/home/arthur/.platformio/packages/framework-zephyr/include",
-                    "/home/arthur/Documentos/embarcados/PlatformIO/Projects/260505-094115-zephyr-blink/.pio/build/frdm_kl25z/zephyr/include/generated",
+                    "/home/arthur/Documentos/embarcados/PlatformIO/Projects/Aula2monitorserial/.pio/build/frdm_kl25z/zephyr/include/generated",
                     "/home/arthur/.platformio/packages/framework-zephyr/soc/arm/nxp_kinetis/kl2x",
+                    "/home/arthur/.platformio/packages/framework-zephyr/lib/libc/newlib/include",
                     "/home/arthur/.platformio/packages/framework-zephyr/_pio/modules/hal/cmsis/CMSIS/Core/Include",
                     "/home/arthur/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/devices/MKL25Z4",
                     "/home/arthur/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/drivers/kinetis",
@@ -40,13 +42,14 @@
                 "KERNEL",
                 "NDEBUG",
                 "_FORTIFY_SOURCE=2",
+                "__LINUX_ERRNO_EXTENSIONS__",
                 "__PROGRAM_START",
                 "__ZEPHYR__=1",
                 ""
             ],
             "cStandard": "c99",
             "forcedInclude": [
-                "/home/arthur/Documentos/embarcados/PlatformIO/Projects/260505-094115-zephyr-blink/.pio/build/frdm_kl25z/zephyr/include/generated/autoconf.h",
+                "/home/arthur/Documentos/embarcados/PlatformIO/Projects/Aula2monitorserial/.pio/build/frdm_kl25z/zephyr/include/generated/autoconf.h",
                 "/home/arthur/.platformio/packages/framework-zephyr/include/toolchain/zephyr_stdint.h",
                 ""
             ],
@@ -56,12 +59,6 @@
                 "-mthumb",
                 "-mabi=aapcs",
                 "-mfp16-format=ieee",
-                "-isystem",
-                "/home/arthur/.platformio/packages/framework-zephyr/lib/libc/minimal/include",
-                "-isystem",
-                "/home/arthur/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/8.2.1/include",
-                "-isystem",
-                "/home/arthur/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/8.2.1/include-fixed",
                 ""
             ]
         }

@@ -1,0 +1,3 @@
+Observaçoes sobre o uso no linux em versoes mais atuais do linux. 
+Um pacote do phyton ficou obsoleto mas é usado em na compipilaçao do plataformIO para ele funcionar no linux digite o comando no termnial do plataformIO 
+~/.platformio/penv/bin/python -m pip install setuptools
