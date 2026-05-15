@@ -8,26 +8,26 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "/home/arthur/Documentos/PlatformIO/Projects/260509-162254-zephyr-blink/include",
-                "/home/arthur/Documentos/PlatformIO/Projects/260509-162254-zephyr-blink/src",
+                "/home/arthur/Documentos/embarcados/PlatformIO/Projects/260505-094115-zephyr-blink/include",
+                "/home/arthur/Documentos/embarcados/PlatformIO/Projects/260505-094115-zephyr-blink/src",
                 "/home/arthur/.platformio/packages/framework-zephyr/include",
-                "/home/arthur/Documentos/PlatformIO/Projects/260509-162254-zephyr-blink/.pio/build/frdm_k64f/zephyr/include/generated",
-                "/home/arthur/.platformio/packages/framework-zephyr/soc/arm/nxp_kinetis/k6x",
+                "/home/arthur/Documentos/embarcados/PlatformIO/Projects/260505-094115-zephyr-blink/.pio/build/frdm_kl25z/zephyr/include/generated",
+                "/home/arthur/.platformio/packages/framework-zephyr/soc/arm/nxp_kinetis/kl2x",
                 "/home/arthur/.platformio/packages/framework-zephyr/_pio/modules/hal/cmsis/CMSIS/Core/Include",
-                "/home/arthur/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/devices/MK64F12",
+                "/home/arthur/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/devices/MKL25Z4",
                 "/home/arthur/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/drivers/kinetis",
                 ""
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "/home/arthur/Documentos/PlatformIO/Projects/260509-162254-zephyr-blink/include",
-                    "/home/arthur/Documentos/PlatformIO/Projects/260509-162254-zephyr-blink/src",
+                    "/home/arthur/Documentos/embarcados/PlatformIO/Projects/260505-094115-zephyr-blink/include",
+                    "/home/arthur/Documentos/embarcados/PlatformIO/Projects/260505-094115-zephyr-blink/src",
                     "/home/arthur/.platformio/packages/framework-zephyr/include",
-                    "/home/arthur/Documentos/PlatformIO/Projects/260509-162254-zephyr-blink/.pio/build/frdm_k64f/zephyr/include/generated",
-                    "/home/arthur/.platformio/packages/framework-zephyr/soc/arm/nxp_kinetis/k6x",
+                    "/home/arthur/Documentos/embarcados/PlatformIO/Projects/260505-094115-zephyr-blink/.pio/build/frdm_kl25z/zephyr/include/generated",
+                    "/home/arthur/.platformio/packages/framework-zephyr/soc/arm/nxp_kinetis/kl2x",
                     "/home/arthur/.platformio/packages/framework-zephyr/_pio/modules/hal/cmsis/CMSIS/Core/Include",
-                    "/home/arthur/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/devices/MK64F12",
+                    "/home/arthur/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/devices/MKL25Z4",
                     "/home/arthur/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/drivers/kinetis",
                     ""
                 ]
@@ -36,7 +36,7 @@
                 "PLATFORMIO=60119",
                 "BUILD_VERSION=zephyr-v20701",
                 "BOARD_FLASH_SIZE=CONFIG_FLASH_SIZE*1024",
-                "CPU_MK64FN1M0VLL12",
+                "CPU_MKL25Z128VLK4",
                 "KERNEL",
                 "NDEBUG",
                 "_FORTIFY_SOURCE=2",
@@ -46,13 +46,13 @@
             ],
             "cStandard": "c99",
             "forcedInclude": [
-                "/home/arthur/Documentos/PlatformIO/Projects/260509-162254-zephyr-blink/.pio/build/frdm_k64f/zephyr/include/generated/autoconf.h",
+                "/home/arthur/Documentos/embarcados/PlatformIO/Projects/260505-094115-zephyr-blink/.pio/build/frdm_kl25z/zephyr/include/generated/autoconf.h",
                 "/home/arthur/.platformio/packages/framework-zephyr/include/toolchain/zephyr_stdint.h",
                 ""
             ],
             "compilerPath": "/home/arthur/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc",
             "compilerArgs": [
-                "-mcpu=cortex-m4",
+                "-mcpu=cortex-m0plus",
                 "-mthumb",
                 "-mabi=aapcs",
                 "-mfp16-format=ieee",
