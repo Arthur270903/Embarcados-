@@ -8,11 +8,11 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "/home/arthur/Documentos/embarcados/PlatformIO/Projects/Aula2PWM/include",
-                "/home/arthur/Documentos/embarcados/PlatformIO/Projects/Aula2PWM/src",
-                "/home/arthur/Documentos/embarcados/PlatformIO/Projects/Aula2PWM/.pio/build/frdm_kl25z/zephyr/include/generated/zephyr",
+                "/home/arthur/Documentos/embarcados/Aula2PWM/include",
+                "/home/arthur/Documentos/embarcados/Aula2PWM/src",
+                "/home/arthur/Documentos/embarcados/Aula2PWM/.pio/build/frdm_kl25z/zephyr/include/generated/zephyr",
                 "/home/arthur/.platformio/packages/framework-zephyr/include",
-                "/home/arthur/Documentos/embarcados/PlatformIO/Projects/Aula2PWM/.pio/build/frdm_kl25z/zephyr/include/generated",
+                "/home/arthur/Documentos/embarcados/Aula2PWM/.pio/build/frdm_kl25z/zephyr/include/generated",
                 "/home/arthur/.platformio/packages/framework-zephyr/soc/nxp/kinetis",
                 "/home/arthur/.platformio/packages/framework-zephyr/lib/libc/newlib/include",
                 "/home/arthur/.platformio/packages/framework-zephyr/soc/nxp/kinetis/kl2x",
@@ -30,11 +30,11 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "/home/arthur/Documentos/embarcados/PlatformIO/Projects/Aula2PWM/include",
-                    "/home/arthur/Documentos/embarcados/PlatformIO/Projects/Aula2PWM/src",
-                    "/home/arthur/Documentos/embarcados/PlatformIO/Projects/Aula2PWM/.pio/build/frdm_kl25z/zephyr/include/generated/zephyr",
+                    "/home/arthur/Documentos/embarcados/Aula2PWM/include",
+                    "/home/arthur/Documentos/embarcados/Aula2PWM/src",
+                    "/home/arthur/Documentos/embarcados/Aula2PWM/.pio/build/frdm_kl25z/zephyr/include/generated/zephyr",
                     "/home/arthur/.platformio/packages/framework-zephyr/include",
-                    "/home/arthur/Documentos/embarcados/PlatformIO/Projects/Aula2PWM/.pio/build/frdm_kl25z/zephyr/include/generated",
+                    "/home/arthur/Documentos/embarcados/Aula2PWM/.pio/build/frdm_kl25z/zephyr/include/generated",
                     "/home/arthur/.platformio/packages/framework-zephyr/soc/nxp/kinetis",
                     "/home/arthur/.platformio/packages/framework-zephyr/lib/libc/newlib/include",
                     "/home/arthur/.platformio/packages/framework-zephyr/soc/nxp/kinetis/kl2x",
@@ -64,7 +64,7 @@
             ],
             "cStandard": "c99",
             "forcedInclude": [
-                "/home/arthur/Documentos/embarcados/PlatformIO/Projects/Aula2PWM/.pio/build/frdm_kl25z/zephyr/include/generated/zephyr/autoconf.h",
+                "/home/arthur/Documentos/embarcados/Aula2PWM/.pio/build/frdm_kl25z/zephyr/include/generated/zephyr/autoconf.h",
                 "/home/arthur/.platformio/packages/framework-zephyr/include/zephyr/toolchain/zephyr_stdint.h",
                 ""
             ],
